@@ -1,26 +1,103 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Services</title>
+  <title>Software Company</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="top">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand nav-logo order-0" href="/">
+        <img src="logo2.png" alt="">
+        dev.io
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Developers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <main>
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="hero-eyebrow">
+          <span class="hero-eyebrow-dot" aria-hidden="true"></span>
+          Your partner in digital progress
+        </p>
+
+        <h1 id="hero-title">
+          Great ideas deserve
+          <span>great software.</span>
+        </h1>
+
+        <p class="hero-description">
+          We design, build, and scale digital products that help ambitious
+          businesses do their best work.
+        </p>
+
+        <div class="hero-trust">
+          <span class="hero-trust-line" aria-hidden="true"></span>
+          <p>From first sketch to the next big thing.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
     <section class="services" id="services" aria-labelledby="services-title">
       <div class="services__intro">
         <p class="services__eyebrow">What we do</p>
         <h1 id="services-title">Our Services</h1>
-        <p class="services__description">We turn complex challenges into dependable digital solutions.</p>
+        <p class="services__description">
+          We turn complex challenges into dependable digital solutions.
+        </p>
       </div>
 
       <div class="services__grid">
+
         <article class="service-card" id="application-development">
           <img src="images/img 1.jpg" alt="" class="service-card__image">
           <div class="service-card__body">
             <h2>Custom Application &amp; Software Development</h2>
-            <p>Build a scalable, tailor-made digital product that fits your specific business requirements.</p>
+            <p>
+              Build a scalable, tailor-made digital product that fits your
+              specific business requirements.
+            </p>
           </div>
         </article>
 
@@ -28,7 +105,10 @@
           <img src="images/img 2.jpg" alt="" class="service-card__image">
           <div class="service-card__body">
             <h2>Software Quality Assurance (QA) &amp; Testing</h2>
-            <p>Deliver a reliable, bug-free user experience that meets strict security and performance standards.</p>
+            <p>
+              Deliver a reliable, bug-free user experience that meets strict
+              security and performance standards.
+            </p>
           </div>
         </article>
 
@@ -36,18 +116,27 @@
           <img src="images/img 3.png" alt="" class="service-card__image">
           <div class="service-card__body">
             <h2>Maintenance, Support &amp; API Integration</h2>
-            <p>Keep systems stable, adapt to new technologies, and prevent unexpected downtime.</p>
+            <p>
+              Keep systems stable, adapt to new technologies, and prevent
+              unexpected downtime.
+            </p>
           </div>
         </article>
+
       </div>
     </section>
+
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="site-footer__inner">
       <div class="site-footer__content">
+
         <div class="site-footer__brand">
-          <a class="site-footer__logo" href="#top" aria-label="dev.io home">dev<span>.io</span></a>
+          <a class="site-footer__logo" href="#top" aria-label="dev.io home">
+            dev<span>.io</span>
+          </a>
           <p>Thoughtful software solutions, built to help your business grow.</p>
         </div>
 
@@ -63,6 +152,7 @@
           <a href="#services">Services</a>
           <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
         </nav>
+
       </div>
 
       <div class="site-footer__bottom">
@@ -71,80 +161,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="bootstrap.bundle.min.js"></script>
+
 </body>
-</html>
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Software Company</title>
-    <link rel="stylesheet" href="bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-        <a class="navbar-brand nav-logo order-0" href="/">
-          <img src="logo2.png" alt="" />
-          dev.io
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Developers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Company</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Pricing</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-content">
-          <p class="hero-eyebrow">
-            <span class="hero-eyebrow-dot" aria-hidden="true"></span>
-            Your partner in digital progress
-          </p>
-          <h1 id="hero-title">
-            Great ideas deserve
-            <span>great software.</span>
-          </h1>
-          <p class="hero-description">
-            We design, build, and scale digital products that help ambitious
-            businesses do their best work.
-          </p>
-          <div class="hero-trust">
-            <span class="hero-trust-line" aria-hidden="true"></span>
-            <p>From first sketch to the next big thing.</p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <script src="bootstrap.bundle.min.js"></script>
-  </body>
 </html>
